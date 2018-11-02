@@ -101,26 +101,19 @@ If you don't already have Git installed, download Git from git-scm.com. Install 
 
 On Windows, Git will provide you with a Unix-style terminal and shell (Git Bash). (On Mac or Linux systems you can use the regular terminal program.)
 
-VirtualBox is the software that actually runs the VM. You can download it from virtualbox.org, here. Install the platform package for your operating system. You do not need the extension pack or the SDK. You do not need to launch VirtualBox after installing it.
-https://www.virtualbox.org/wiki/Download_Old_Builds_5_1
-
-Vagrant is the software that configures the VM and lets you share files between your host computer and the VM's filesystem. You can download it from vagrantup.com. Install the version for your operating system.
-https://www.vagrantup.com/downloads.html
-
-Clone the fullstack-nanodegree-vm
-git clone http://github.com/udacity/fullstack-nanodegree-vm
-
-Using the terminal, change directory using the command cd fullstack/vagrant, then type "vagrant up" to launch your virtual machine.
-
 Copy project from github: 
-Download the project from github with 
-git clone https://github.com/ubunturuby/item-catalog-app.git
+Download the project from github with https://github.com/ubunturuby/itemcatalogapp.git
 
-Write your Flask application locally in the vagrant/catalog directory (which will automatically be synced to /vagrant/catalog within the VM)
+Copy Files in /var/www/FlaskApp/FlaskApp
 
-Now that you have Vagrant up and running type vagrant ssh to log into your virtual machine (VM). Change directory to the /vagrant directory by typing cd /vagrant. This will take you to the shared folder between your virtual machine and host machine.
-
-Setup application within the VM (python /vagrant/catalog/):
+Folder structure should look like this: 
+FlaskApp
+    FlaskApp
+        static
+        templates
+        venv 
+        __init__.py
+    flaskapp.wsgi
 
 type in console: python database_setup.py
 
@@ -130,11 +123,9 @@ type in console: python lotsofmenus.py
 
 populates the database with dummy data 
 
-type in console: python application.py 
+type in console: python __init__.py
 
-runs the flask webserver on port http://localhost:8000
-
-Access and test your application by visiting http://localhost:8000 locally
+runs the flask webserver on port 80 
 
 If you have to reset the database (deletes all data from database) 
 
