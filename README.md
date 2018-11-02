@@ -82,16 +82,16 @@ wheel          0.32.2
 
 
 ### Important commands
-# restart apache2 webserver 
+#### restart apache2 webserver 
 sudo service apache2 restart
-# error Log on webserver 
+#### error Log on webserver 
 sudo nano /var/log/apache2/error.log
-# activate virtualenvironment
+#### activate virtualenvironment
 source venv/bin/activate
 
-# restart posgresql
+#### restart posgresql
 sudo /etc/init.d/postgresql restart
-# activate virtaulenvironment 
+#### activate virtualenvironment 
 source venv/bin/activate
 
 
