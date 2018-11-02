@@ -1,0 +1,50 @@
+{% extends "main.html" %}
+{% block content %}
+<div class="row top-menu" style="background-color: dodgerblue;" >
+        <div class="col-md-12">
+		<a href="{{url_for('showCategories')}}">
+			</span><h1>Catalog App</h1>
+		</a>
+	<div class="col-md-16 text-right">
+        <a href="{{url_for('showLogin')}}"><button type="button" class="btn-primary">Login</button></a>
+	</div>
+	</div>
+</div>
+
+	<div class="row divider blue">
+		<div class="col-md-10"></div>
+	</div>
+	<div class="row banner main">
+		
+		<div class="col-md-11 padding-none">
+			
+		</div>
+	</div>
+</div>
+<div class="container">
+		
+			
+		
+	
+	<div class="row">
+		<div class="col-md-6 col-md-offset-1 padding-top">
+            <label for="item" class="col-md-12" style="background-color:aliceblue"><h2>Show Item</h2></label>
+			<form action="#" method = "post">
+				<div class="form-group">
+                    
+                  <div class="showitem">  
+                   <h4>{{item.name}}</h4>
+                   
+                   </div>
+                    
+					<div class="showitem">  
+                     <label for="description"><h4>{{item.description}}</h4></label> 
+                    </div>
+                    
+			</form>
+		</div>
+	</div>
+    </div>
+</div>
+{% endblock %}
+
