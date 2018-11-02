@@ -5,7 +5,8 @@ Item-Catalog-App
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The project is an Item-Catalog-App with Flask-Framework and a Postgres-DB, which runs on an Apache Webserver via WSGI.
+At the moment the authentification via 3rd-Party-Provider Facebook and Google are not working, because of the requirement of HTTPS, which is mandatory.  
 
 The project files are available on github. 
 
@@ -91,7 +92,7 @@ source venv/bin/activate
 # restart posgresql
 sudo /etc/init.d/postgresql restart
 # activate virtaulenvironment 
-
+source venv/bin/activate
 
 
 ### Installing
