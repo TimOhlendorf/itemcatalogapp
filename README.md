@@ -11,6 +11,12 @@ The project files are available on github.
 
 git clone https://github.com/ubunturuby/item-catalog-app.git
 
+
+## Server
+IP  == 18.196.125.229
+URL == http://18.196.125.229
+
+
 ## Description
 
 The app runs a webserver with the python based flask framework. 
