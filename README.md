@@ -13,7 +13,9 @@ git clone https://github.com/ubunturuby/itemcatalogapp.git
 
 
 ## Server
-IP  == 18.196.125.229
+
+IP  == 18.196.125.229 
+
 URL == http://18.196.125.229
 
 
@@ -29,23 +31,54 @@ Users who are not logged in can visit categories and item descriptions but wont 
 
 What things you need to install the software and how to install them
 
-python==2.7
-certifi==2018.4.16
-chardet==3.0.4
-Click==7.0
-docopt==0.6.2
-Flask==1.0.2
-idna==2.7
-itsdangerous==0.24
-Jinja2==2.10
-MarkupSafe==1.0
-pipreqs==0.4.9
-pycodestyle==2.4.0
-requests==2.19.1
-SQLAlchemy==1.2.12
-urllib3==1.23
-Werkzeug==0.14.1
-yarg==0.1.9
+
+GlobalEnvironment
+blinker      1.3
+Click        7.0
+cryptography 1.2.3
+enum34       1.1.2
+Flask        1.0.2
+idna         2.0
+ipaddress    1.0.16
+itsdangerous 1.1.0
+Jinja2       2.10
+MarkupSafe   1.0
+pip          18.1
+pyasn1       0.1.9
+pyinotify    0.9.6
+pyOpenSSL    0.15.1
+setuptools   20.7.0
+six          1.10.0
+virtualenv   16.0.0
+Werkzeug     0.14.1
+wheel        0.29.0
+
+
+VirtualEnvironment (venv folder) 
+certifi        2018.10.15
+chardet        3.0.4
+Click          7.0
+Flask          1.0.2
+httplib2       0.11.3
+idna           2.7
+itsdangerous   1.1.0
+Jinja2         2.10
+MarkupSafe     1.0
+oauth2client   4.1.3
+pip            18.1
+psycopg2       2.7.5
+pyasn1         0.4.4
+pyasn1-modules 0.2.2
+requests       2.20.0
+rsa            4.0
+setuptools     40.5.0
+six            1.11.0
+SQLAlchemy     1.2.12
+urllib3        1.24
+virtualenv     16.0.0
+Werkzeug       0.14.1
+wheel          0.32.2
+
 
 ### Important commands
 # restart apache2 webserver 
