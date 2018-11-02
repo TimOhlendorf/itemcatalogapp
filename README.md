@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 The project files are available on github. 
 
-git clone https://github.com/ubunturuby/item-catalog-app.git
+git clone https://github.com/ubunturuby/itemcatalogapp.git
 
 
 ## Server
@@ -46,6 +46,19 @@ SQLAlchemy==1.2.12
 urllib3==1.23
 Werkzeug==0.14.1
 yarg==0.1.9
+
+### Important commands
+# restart apache2 webserver 
+sudo service apache2 restart
+# error Log on webserver 
+sudo nano /var/log/apache2/error.log
+# activate virtualenvironment
+source venv/bin/activate
+
+# restart posgresql
+sudo /etc/init.d/postgresql restart
+# activate virtaulenvironment 
+
 
 
 ### Installing
